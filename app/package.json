@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "npm run build:sw && nuxt build",
+    "start": "nuxt start",
+    "dev": "nuxt",
+    "build:sw": "webpack"
+
+  },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/vuetify": "^1.12.3",
