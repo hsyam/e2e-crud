@@ -3,7 +3,7 @@ Simple CRUD application containing a web portal consuming a service layer using
 a database to store the data.
 ### Tech Stack 
 ![MEVN](/docs/images/mevn.png)
-MEVN Stack 
+#### MEVN Stack 
  - Mongodb
  - Express.js
  - Vue.js
