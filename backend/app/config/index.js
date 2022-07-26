@@ -3,4 +3,4 @@
  */
 
 import mongoose from 'mongoose' 
-mongoose.connect('mongodb://localhost:27017/crud-app')
+mongoose.connect('mongodb://mongodb:27017/crud-app')

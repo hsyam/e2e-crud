@@ -5,8 +5,10 @@
   "main": "app.js",
   "author": "Hassan Syam",
   "license": "MIT",
+  
   "scripts": {
-    "dev": "nodemon --exec babel-node app.js"
+    "dev": "nodemon --exec babel-node app.js",
+    "start": "babel-node  app.js"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
